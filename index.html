@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    <h1>Calculator</h1>
+    <!-- Input for first number -->
+    <input id="num1" type="number" placeholder="First number">
+    <!-- Input for second number -->
+    <input id="num2" type="number" placeholder="Second number">
+    <!-- Buttons for operations -->
+    <div>
+      <button onclick="calculate('+')">Add</button>
+      <button onclick="calculate('-')">Subtract</button>
+      <button onclick="calculate('*')">Multiply</button>
+      <button onclick="calculate('/')">Divide</button>
+    </div>
+    <!-- Where the result will be shown -->
+    <div class="result" id="result">Result: </div>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
